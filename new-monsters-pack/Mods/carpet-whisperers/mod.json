@@ -17,11 +17,8 @@
 		]
 	},
 	"czech" : {
-		"name" : "Šeptající kouzelný koberec",
+		"name" : "Zaříkávači koberců",
 		"description" : "Nová neutrální jednotka",
-		"translations" : [
-			"translation/carpet-whisperers/czech.json"
-		]
 	},
 	"compatibility" :
 	{

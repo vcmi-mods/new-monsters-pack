@@ -11,5 +11,9 @@
 	[
 		"config/Man at Arms/Man at Arms.json",
 		"config/Man at Arms/creature-texts.json"
-	]
+	],
+	"czech" : {
+		"name": "Zbrojnoši",
+		"description": "Zbrojnoš vytvořený Lordem Hawkem z podkladů od Alex-andera z HotA týmu"
+	}
 }

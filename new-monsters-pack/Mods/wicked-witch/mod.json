@@ -28,5 +28,9 @@
 	[
 		"config/wickedWitch.json",
 		"config/kraven.json"
-	]
+	],
+	"czech" : {
+		"name": "Zlé čarodějnice",
+		"description": "Nová jednotka pro Pevnost: Zlá čarodějnice. Tato jednotka může být najata pouze v externím obydlí."
+	}
 }

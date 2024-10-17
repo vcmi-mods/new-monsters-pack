@@ -11,7 +11,7 @@
 	],
 	"changelog" :
     {
-		"0.1" : ["Initial release"],
+		"0.1"   : ["Initial release"],
 		"0.1.1" : ["fixed advAmount value", "new calculated AI/Fight values"],
 		"0.1.2" : ["small update for vcmi-1.2"],
 		"0.1.3" : ["small update for vcmi-1.4"],
@@ -26,10 +26,7 @@
 	},
 	"czech" : {
 		"name" : "Ztracené duše",
-		"description" : "Tento mod přidává neutrální jednotku: Ztracené duše",
-		"translations" : [
-			"translation/lost-souls/czech.json"
-		]
+		"description" : "Tato modifikace přidává neutrální jednotku: Ztracené duše"
 	},
 	"compatibility" :
 	{

@@ -2,17 +2,23 @@
 	"name" : "Extra Creature Pack",
 	"description" : "Twenty-three new neutral creatures!",
 	
-	"version" : "1.12",
+	"version" : "1.13",
 	"author" : "Kuririn and Witchking def authors, Hobbit Cyber Zombie author, Trith old forge creature author, Axolotl Tank author, Avatar support and MK",
 	"contact" : "",
 	"modType" : "Creatures",
 	"changelog" :
     {
+        "1.13"   : [ "Czech translation by George King" ],
         "1.12"   : [ "Some new big portraits" ],
 		"1.11"   : [ "More compatibility with other mods" ],
-		"1.1"   : [ "Bugfixes" ],
-		"1.0"   : [ "Initial release" ]
-    }, 
+		"1.1"    : [ "Bugfixes" ],
+		"1.0"    : [ "Initial release" ]
+    },
+
+	"czech" : {
+		"name" : "Balíček extra jednotek",
+		"description" : "Tato modifikace přidává 23 nových jednotek!"
+	},
 	
 	"creatures" :
 	[
@@ -36,9 +42,9 @@
         "config/Robo Dragon/RoboDragon.json",
         "config/Mech Dragon/MechDragon.json",
         "config/Banshee/Banshee.json",
- 	  "config/Swamp Gorynych/SwampGorynych.json",
+        "config/Swamp Gorynych/SwampGorynych.json",
         "config/Necrotic Beast/NecroticBeast.json",
-	  "config/Necrotic Beast/creature-texts.json",
+        "config/Necrotic Beast/creature-texts.json",
         "config/Jade Dragon/JadeDragon.json",
         "config/Fanatic Guardian/FanaticGuardian.json",
         "config/Giant Dragon/GiantDragon.json",

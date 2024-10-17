@@ -15,5 +15,9 @@
 	"objects" : 
 	[ 
 		"config/Dark elemental/dwellings" 
-	]
+	],
+	"czech" : {
+		"name": "Temní elementálové",
+		"description": "Temný elementál vytvořený Lordem Hawkem z podkladů od metalpisse"
+	}
 }

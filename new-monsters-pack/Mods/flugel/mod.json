@@ -1,5 +1,5 @@
 {
-	"name" : "Flugels - New Neutral Creature",
+	"name" : "Flugels",
 	"description" : "A new neutral creature based on No Game No Life's Flugel race. Also my first H3 creature ever. Credit for the model goes to codealdnoah.",
 	"author" : "Fire Paladin",
 	"contact" : "amurgul@protonmail.com",
@@ -20,11 +20,8 @@
 		]
 	},
 	"czech" : {
-		"name": "Flügel - Nová neutrální bytost",
-		"description": "Nová neutrální bytost založená na rasě Flügel z No Game No Life. Moje první bytost pro H3 vůbec. Poděkování za model patří codealdnoah.",
-		"translations" : [
-			"translation/flugel-creature/czech.json"
-		]
+		"name": "Flügelové",
+		"description": "Nová neutrální bytost založená na rase Flügel z No Game No Life. Fire Paladinova první jednotka pro Heroes 3. Poděkování za model patří codealdnoahovi."
 	},
 	"compatibility" :
 	{

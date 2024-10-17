@@ -1,17 +1,22 @@
 {
 	"name" : "Dark dwarf at arms",
 	"description" : "Three creatures made by Lord Hawk from def of metalpiss in one mod",
-	"version" : "1.1.2",
+	"version" : "1.1.3",
 	"author" : "Lord Hawk",
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=890&page=29#71206",
 	"modType" : "Creatures",
 	"changelog" :
     {
+        "1.1.3"   : [ "Czech translation by George King" ],
         "1.1.2"   : [ "Update to vcmi-1.4 format" ],
 		"1.1.1"   : [ "Update to vcmi-1.3.2 format" ],
-		"1.1"   : [ "Update to vcmi-1.2 format" ],
-		"1.0"   : [ "Initial release" ]
+		"1.1"     : [ "Update to vcmi-1.2 format" ],
+		"1.0"     : [ "Initial release" ]
     },
+	"czech" : {
+		"name" : "Ozbrojení temní trpaslíci",
+		"description" : "Tři bytosti vytvořené Lordem Hawkem",
+	},
 	"compatibility" :
 	{
 		"min" : "1.4.0"

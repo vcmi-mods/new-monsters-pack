@@ -2,7 +2,7 @@
 	"name" : "New monsters pack",
 	"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS",
 	"author" : "Various",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" :
@@ -11,6 +11,14 @@
 	},
 	"changelog" :
     {
+		"1.0.1"   : [ "Czech translation by George King" ],
 		"1.0.0"   : [ "Initial release" ]
-    }
+    },
+	"czech" : {
+		"name" : "Balíček nových jednotek",
+		"description" : "Balíček minimodů obsahující nové, převážně neutrální jednotky.",
+		"translations" : [
+			"translation/new-monsters-pack/czech.json"
+		]
+	}
 }

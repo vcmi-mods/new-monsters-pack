@@ -16,5 +16,9 @@
     "objects" :
     [
     "config/dwarf/dwellings.json"
-    ]
+    ],
+	"czech" : {
+		"name" : "Balíček trpaslíků",
+		"description" : "Tato modifikace přidává 5 nových trpaslíků"
+	}
 }

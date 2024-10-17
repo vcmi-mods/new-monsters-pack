@@ -13,9 +13,9 @@
 		"1.01" : ["small update for vcmi-1.2"],
 		"1.02" : ["small fix for bonus morale"],
 		"1.03" : ["small update for vcmi-1.4"],
-		"2.0" : ["Bloodeyed Cyclops, Cyclop Warrior, Purple Dragon, Black Gorgon added, Marine Serail changed to a bank"],
-		"2.1" : ["Added Neutral creature and dwelling: Eagle and Eagle Nest."]
-		"2.2" : ["Added Neutral creature, dwelling and bank: Wild Griffin, Griffin Cliffs, Griffin Nest."]
+		"2.0"  : ["Bloodeyed Cyclops, Cyclop Warrior, Purple Dragon, Black Gorgon added, Marine Serail changed to a bank"],
+		"2.1"  : ["Added Neutral creature and dwelling: Eagle and Eagle Nest."],
+		"2.2"  : ["Added Neutral creature, dwelling and bank: Wild Griffin, Griffin Cliffs, Griffin Nest."]
     },
 	"compatibility" :
 	{

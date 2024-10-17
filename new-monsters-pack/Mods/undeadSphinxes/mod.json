@@ -45,9 +45,6 @@
 	},
 	"czech" : {
 		"name" : "Nemrtvé sfingy",
-		"description" : "Tři nové neutrální jednotky s Morovou pyramidou",
-		"translations" : [
-			"translation/undead-sphinxes/czech.json"
-		]
+		"description" : "Tři nové neutrální jednotky s Morovou pyramidou"
 	}
 }

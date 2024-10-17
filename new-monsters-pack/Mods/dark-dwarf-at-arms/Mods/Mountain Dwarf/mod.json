@@ -11,5 +11,9 @@
 	[
 		"config/Mountain Dwarf/Mountain Dwarf.json",
 		"config/Mountain Dwarf/creature-texts.json"
-	]
+	],
+	"czech" : {
+		"name": "Horští trpaslíci",
+		"description": "Horský trpaslík vytvořený Lordem Hawkem z podkladů od Alex-andera z HotA týmu"
+	}
 }
