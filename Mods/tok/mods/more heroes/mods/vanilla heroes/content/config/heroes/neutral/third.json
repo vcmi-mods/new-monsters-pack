@@ -41,7 +41,7 @@
 			"biography" : "",
 			"name" : "Third",
 			"specialty" : {
-				"description" : "{Gold Golem}\r\n\r\nIncreases Speed of any Gold Golem by 1 and their Attack and Defense skills by 5% for every 5 level.",
+				"description" : "{Gold Golem}\r\n\r\nIncreases Speed of any Gold Golem by 1 and their Attack and Defense skills by 5% for every 5 levels.",
 				"name" : "Gold Golem",
 				"tooltip" : "Creature bonus: Gold Golem"
 			}

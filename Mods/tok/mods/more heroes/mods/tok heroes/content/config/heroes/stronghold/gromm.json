@@ -69,7 +69,7 @@
 			"biography" : "Gromm, a formidable Bugbear chieftain, rose to power amidst orcish turmoil, uniting scattered tribes to become a visionary leader. His ambition extends beyond conquest, aiming to solidify Bugbears as a respected force through unity and diversity.",
 			"name" : "Gromm",
 			"specialty" : {
-				"description" : "Increases Speed of any Bugbear by 2 and their Attack skills by 2 for every 4 level.",
+				"description" : "Increases Speed of any Bugbear by 2 and their Attack skills by 2 for every 4 levels.",
 				"name" : "Bugbear",
 				"tooltip" : "Creature bonus: Bugbear"
 			}

@@ -166,7 +166,7 @@
 	},
 	"german" : {
 		"name" : "New monsters pack",
-		"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNISTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS.",
+		"description" : "Pack of minimods contains new, mostly neutral creatures. PLEASE UNINSTALL DUPLICATE MODS FROM LAUNCHER TO AVOID BUGS.",
 		"translations" : [
 			"translation/german.json"
 		]

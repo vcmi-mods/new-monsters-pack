@@ -39,7 +39,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{Magic Leech}\nEnhances an allied unit, granting it 1 additional spell cast. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
+				"description" : "{Magic Leech}\n\nEnhances an allied unit, granting it 1 additional spell cast. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
 				"cost" : 10,
 				"power" : 10,
 				//               "aiValue" : 5,
@@ -49,7 +49,7 @@
 				}
 			},
 			"none" : {
-				"description" : "{Magic Leech}\nGrants an allied unit 1 additional spell cast and increases the enemy hero's spell costs by 1. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
+				"description" : "{Magic Leech}\n\nGrants an allied unit 1 additional spell cast and increases the enemy hero's spell costs by 1. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
 				"cost" : 9,
 				"power" : 15,
 				//			"aiValue" : 20,
@@ -81,7 +81,7 @@
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Magic Leech}\nGrants an allied unit 2 additional spell casts and increases the enemy hero's spell costs by 2. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
+				"description" : "{Basic Magic Leech}\n\nGrants an allied unit 2 additional spell casts and increases the enemy hero's spell costs by 2. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
 				"cost" : 8,
 				"power" : 18,
 				//			"aiValue" : 22,
@@ -113,7 +113,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Magic Leech}\nGrants an allied unit 3 additional spell casts and increases the enemy hero's spell costs by 3. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
+				"description" : "{Advanced Magic Leech}\n\nGrants an allied unit 3 additional spell casts and increases the enemy hero's spell costs by 3. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
 				"cost" : 7,
 				"power" : 20,
 				//                "aiValue" : 25,
@@ -145,7 +145,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Magic Leech}\nEmpowers all friendly units, granting them 3 additional spell casts and increasing the enemy hero's spell costs by 4. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
+				"description" : "{Expert Magic Leech}\n\nEmpowers all friendly units, granting them 3 additional spell casts and increasing the enemy hero's spell costs by 4. The caster hero restores 1 Spell Point for every 2 Spell Points spent by enemy hero.",
 				"cost" : 6,
 				"power" : 25,
 				//               "aiValue" : 30,

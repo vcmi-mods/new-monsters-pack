@@ -28,7 +28,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{Cowardice}\nWeaker creatures lose their courage when facing foes. Affected unit cannot retaliate and is immune to few buffing spells.",
+				"description" : "{Cowardice}\n\nWeaker creatures lose their courage when facing foes. Affected unit cannot retaliate and is immune to few buffing spells.",
 				"cost" : 9,
 				"power" : 15,
 				//               "aiValue" : 20,
@@ -39,7 +39,7 @@
 				}
 			},
 			"none" : {
-				"description" : "{Cowardice}\nAffected unit cannot retaliate and is immune to Slayer and Counterstrike.",
+				"description" : "{Cowardice}\n\nAffected unit cannot retaliate and is immune to Slayer and Counterstrike.",
 				"cost" : 9,
 				"power" : 15,
 				//                "aiValue" : 20,
@@ -61,7 +61,7 @@
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Cowardice}\nAffected unit cannot retaliate and is immune to Slayer, Counterstrike, Bloodlust and Mirth.",
+				"description" : "{Basic Cowardice}\n\nAffected unit cannot retaliate and is immune to Slayer, Counterstrike, Bloodlust and Mirth.",
 				"cost" : 8,
 				"power" : 18,
 				//                "aiValue" : 20,
@@ -93,7 +93,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Cowardice}\nAffected unit cannot retaliate and is immune to Slayer, Counterstrike, Bloodlust, Mirth, Precision and Frenzy.",
+				"description" : "{Advanced Cowardice}\n\nAffected unit cannot retaliate and is immune to Slayer, Counterstrike, Bloodlust, Mirth, Precision and Frenzy.",
 				"cost" : 7,
 				"power" : 20,
 				//                "aiValue" : 20,
@@ -135,7 +135,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Cowardice}\nAll affected enemy units cannot retaliate and are immune to Slayer, Counterstrike, Bloodlust, Mirth, Precision and Frenzy.",
+				"description" : "{Expert Cowardice}\n\nAll affected enemy units cannot retaliate and are immune to Slayer, Counterstrike, Bloodlust, Mirth, Precision and Frenzy.",
 				"cost" : 6,
 				"power" : 25,
 				//                "aiValue" : 20,

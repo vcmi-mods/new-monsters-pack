@@ -44,7 +44,7 @@
 			"biography" : "",
 			"name" : "Lorme",
 			"specialty" : {
-				"description" : "Increases Speed of any Plague Doctor by 1 and their Attack and Defense skills by 5% for every 4 level.",
+				"description" : "Increases Speed of any Plague Doctor by 1 and their Attack and Defense skills by 5% for every 4 levels.",
 				"name" : "Plague Doctor",
 				"tooltip" : "Creature bonus: Plague Doctor"
 			}

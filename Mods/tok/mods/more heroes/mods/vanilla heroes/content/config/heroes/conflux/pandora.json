@@ -42,7 +42,7 @@
 			"biography" : "",
 			"name" : "Pandora",
 			"specialty" : {
-				"description" : "{Phoenix}\r\n\r\nIncreases Speed of any Firebird and Phoenix by 1 and their Attack and Defense skills by 5% for every 7 level.",
+				"description" : "{Phoenix}\r\n\r\nIncreases Speed of any Firebird and Phoenix by 1 and their Attack and Defense skills by 5% for every 7 levels.",
 				"name" : "Phoenix",
 				"tooltip" : "Creature bonus: Phoenix"
 			}

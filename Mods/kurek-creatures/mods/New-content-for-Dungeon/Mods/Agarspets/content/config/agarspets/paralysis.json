@@ -32,7 +32,7 @@
 		},
 		"levels" : {
 			"base" : {
-				"description" : "{Paralysis}\nParalyzes the target, reducing its attack power and preventing movement.",
+				"description" : "{Paralysis}\n\nParalyzes the target, reducing its attack power and preventing movement.",
 				"cost" : 18,
 				"power" : 15,
 				//        "aiValue" : 15,
@@ -42,7 +42,7 @@
 				}
 			},
 			"none" : {
-				"description" : "{Paralysis}\nThe target's attack power is reduced by 50% and it remains inactive until attacked.",
+				"description" : "{Paralysis}\n\nThe target's attack power is reduced by 50% and it remains inactive until attacked.",
 				"cost" : 18,
 				"power" : 15,
 				"effects" : {
@@ -66,7 +66,7 @@
 				}
 			},
 			"basic" : {
-				"description" : "{Basic Paralysis}\nThe target's attack power is reduced by 60% and it remains inactive until attacked.",
+				"description" : "{Basic Paralysis}\n\nThe target's attack power is reduced by 60% and it remains inactive until attacked.",
 				"cost" : 16,
 				"power" : 18,
 				"effects" : {
@@ -90,7 +90,7 @@
 				}
 			},
 			"advanced" : {
-				"description" : "{Advanced Paralysis}\nThe target's attack power is reduced by 75% and it remains inactive until attacked.",
+				"description" : "{Advanced Paralysis}\n\nThe target's attack power is reduced by 75% and it remains inactive until attacked.",
 				"cost" : 14,
 				"power" : 22,
 				"effects" : {
@@ -114,7 +114,7 @@
 				}
 			},
 			"expert" : {
-				"description" : "{Expert Paralysis}\nThe target's attack power is reduced by 75% and it remains inactive indefinitely, regardless of being attacked.",
+				"description" : "{Expert Paralysis}\n\nThe target's attack power is reduced by 75% and it remains inactive indefinitely, regardless of being attacked.",
 				"cost" : 12,
 				"power" : 25,
 				"effects" : {

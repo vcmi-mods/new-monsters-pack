@@ -4,7 +4,7 @@
 			"plural" : "Cherubim",
 			"singular" : "Cherub"
 		},
-		"description" : "{green|Cherub}\r\n\r\nCherubim in the are high in the hierarchy celestial beings who serve as guardians and protectors of divine holiness. Described as having many wings and great power and speed, they often appear in the visions of prophets, symbolizing glory and holy presence. With their great offensive and defensive power and flying ability, Cherubs are among the mightiest and fastest creatures among celestials. \n\n{gold|They do 150% damage when attacking devils and strengthen morale of allied units.}\n\n {#00aaff|Cherubim can 3 times resurrect allied units fallen on the battlefield, provided they were not undead in life.}",
+		"description" : "{green|Cherub}\r\n\r\nCherubim are high in the hierarchy of celestial beings who serve as guardians and protectors of divine holiness. Described as having many wings and great power and speed, they often appear in the visions of prophets, symbolizing glory and holy presence. With their great offensive and defensive power and flying ability, Cherubs are among the mightiest and fastest creatures among celestials. \n\n{gold|They deal 150% damage when attacking devils and increase the morale of allied units.}\n\n {#00aaff|Cherubim can resurrect fallen allied units on the battlefield up to three times, provided they were not undead in life.}",
 
 		"advMapAmount" : {
 			"max" : 2,
