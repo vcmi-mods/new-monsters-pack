@@ -768,5 +768,18 @@
     "mod.kurek-creatures.new-content-for-stronghold.cyclops_warrior.name": "Cyklop Wojownik",
     "mod.kurek-creatures.new-content-for-stronghold.cyclops_warrior.description": "„Nowa jednostka - Cyklop Wojownik. Te cyklopy noszą ogromną maczugę i są tak silne i wytrzymałe, że nawet mury zamków się ich boją.",
     "mod.undeadsphinxes.name": "Grobowe Sfinksy",
-    "mod.undeadsphinxes.description": "Mod dodaje dwie neutralne jednostki: Popielatego Sfinksa i jego ulepszenie Grobowego Sfinksa"
+    "mod.undeadsphinxes.description": "Mod dodaje dwie neutralne jednostki: Popielatego Sfinksa i jego ulepszenie Grobowego Sfinksa",
+    "creatures.new-monsters-pack.axolotl-creatures-pack.acpYeti.bonus.fear": "PLACEHOLDER",
+    "creatures.new-monsters-pack.axolotl-creatures-pack.acpsphinx.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.axolotl-creatures-pack.hulkBuster.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.axolotl-creatures-pack.ironclad.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.axolotl-creatures-pack.serpentine.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.axolotl-creatures-pack.serpentineAlpha.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expEnormCrab.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expGiantDragon.bonus.fear": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expGiantDragon.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expMonstrousMimic.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expRoboGriffAssu.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expTRex.bonus.fearless": "PLACEHOLDER",
+    "creatures.new-monsters-pack.extra-creature-pack.expYaoGuai.bonus.fearless": "PLACEHOLDER"
 }
