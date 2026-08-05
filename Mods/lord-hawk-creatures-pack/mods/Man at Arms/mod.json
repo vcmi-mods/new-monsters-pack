@@ -43,16 +43,13 @@
 	"compatibility" : {
 		"min" : "1.6.0"
 	},
-
 	"creatures" : [
 		"config/Man at Arms/Creatures/Squire.json",
 		"config/Man at Arms/Creatures/Man at Arms.json"
 	],
-
 	"spells" : [
 		"config/Man at Arms/Spells/Stun.json"
 	],
-
 	"objects" : [
 		"config/Man at Arms/dwellings.json",
 		"config/Man at Arms/royalTreasury.json"
@@ -94,5 +91,10 @@
 	"czech" : {
 		"name" : "Zbrojnoši",
 		"description" : "Tato modifikace přidává 2 nové jednotky - Panoše a Zbrojnoše včetně jejich obydlí a zásobáren. Navíc přidává nové kouzlo Omráčení."
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }
