@@ -22,6 +22,11 @@
 		"sounds" : {},
 		"levels" : {
 			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
 				"description" : "Base level of Fiery Eye ability.",
 				"cost" : 0,
 				"power" : 0,
@@ -73,7 +78,8 @@
 			}
 		},
 		"flags" : {
-			"offensive" : true
+			"damage" : true,
+			"negative" : true
 		}
 	}
 }

@@ -19,7 +19,8 @@
 			]
 		},
 		"flags" : {
-			"offensive" : true
+			"damage" : true,
+			"negative" : true
 		},
 		"targetCondition" : {},
 		"sounds" : {
@@ -28,13 +29,17 @@
 		"graphics" : {},
 		"levels" : {
 			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
 				"range" : "0",
 				"power" : 10,
 				"cost" : 0,
 				"targetModifier" : {
 					"smart" : true
 				},
-				"battleEffects" : {},
 				"description" : ""
 			},
 			"none" : {},

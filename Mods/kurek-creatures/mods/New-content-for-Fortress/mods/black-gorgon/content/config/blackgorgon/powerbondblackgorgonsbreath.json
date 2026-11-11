@@ -25,6 +25,11 @@
 
 		"levels" : {
 			"base" : {
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					}
+				},
 				"description" : "",
 				"cost" : 0,
 				"power" : 0,
@@ -41,7 +46,8 @@
 			"expert" : {}
 		},
 		"flags" : {
-			"offensive" : true
+			"damage" : true,
+			"negative" : true
 		}
 	}
 }
