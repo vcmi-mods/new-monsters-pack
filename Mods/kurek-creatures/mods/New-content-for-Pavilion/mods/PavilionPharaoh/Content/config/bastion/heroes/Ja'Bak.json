@@ -52,10 +52,10 @@
 			},
 			"bonuses" : {
 				"anubis2anubiswarrior" : {
-					"subtype" : "new-pavilion:anubis"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "new-pavilion:anubis" } ]
 				},
 				"anubisupg2anubiswarrior" : {
-					"subtype" : "new-pavilion:anubisWarrior"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "new-pavilion:anubisWarrior" } ]
 				}
 			}
 		}

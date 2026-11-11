@@ -43,20 +43,25 @@
 				"cost" : 9,
 				"power" : 15,
 				//                "aiValue" : 20,
-				"effects" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunitySlayer" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "slayer",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityCounterstrike" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "counterstrike",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunitySlayer" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "slayer",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityCounterstrike" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "counterstrike",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -65,30 +70,35 @@
 				"cost" : 8,
 				"power" : 18,
 				//                "aiValue" : 20,
-				"effects" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunitySlayer" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "slayer",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityCounterstrike" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "counterstrike",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityBloodlust" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "bloodlust",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityMirth" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "mirth",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunitySlayer" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "slayer",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityCounterstrike" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "counterstrike",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityBloodlust" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "bloodlust",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityMirth" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "mirth",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -97,40 +107,45 @@
 				"cost" : 7,
 				"power" : 20,
 				//                "aiValue" : 20,
-				"effects" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunitySlayer" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "slayer",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityCounterstrike" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "counterstrike",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityBloodlust" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "bloodlust",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityMirth" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "mirth",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityPrecision" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "precision",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityFrenzy" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "frenzy",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunitySlayer" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "slayer",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityCounterstrike" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "counterstrike",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityBloodlust" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "bloodlust",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityMirth" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "mirth",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityPrecision" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "precision",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityFrenzy" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "frenzy",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -143,40 +158,45 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunitySlayer" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "slayer",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityCounterstrike" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "counterstrike",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityBloodlust" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "bloodlust",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityMirth" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "mirth",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityPrecision" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "precision",
-						"duration" : "N_TURNS"
-					},
-					"spellImmunityFrenzy" : {
-						"type" : "SPELL_IMMUNITY",
-						"subtype" : "frenzy",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunitySlayer" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "slayer",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityCounterstrike" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "counterstrike",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityBloodlust" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "bloodlust",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityMirth" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "mirth",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityPrecision" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "precision",
+								"duration" : "N_TURNS"
+							},
+							"spellImmunityFrenzy" : {
+								"type" : "SPELL_IMMUNITY",
+								"subtype" : "frenzy",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

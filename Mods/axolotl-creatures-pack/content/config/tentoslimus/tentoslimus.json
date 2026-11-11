@@ -2,7 +2,8 @@
 	"tentoslimus" : {
 		"abilities" : {
 			"lifeDrain" : {
-				"type" : "LIFE_DRAIN",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "lifeDrain",
 				"val" : 30
 			},
 
@@ -11,7 +12,8 @@
 			},
 
 			"enemyCantEscape" : {
-				"type" : "BATTLE_NO_FLEEING",
+				"type" : "BATTLE_CAN_FLEE",
+				"val" : -100,
 				"propagator" : "BATTLE_WIDE"
 			}
 		},

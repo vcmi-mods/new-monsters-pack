@@ -5,8 +5,9 @@
 				"type" : "MIND_IMMUNITY"
 			},
 			"rebirthAlways" : {
-				"type" : "REBIRTH",
-				"subtype" : "rebirthSpecial",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "rebirth",
+				"addInfo" : { "guaranteed" : true },
 				"val" : 50
 			},
 			"casts" : {

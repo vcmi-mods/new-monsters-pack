@@ -73,37 +73,42 @@
 					"smart" : false
 				},
 
-				"effects" : {
-					"noRetaliation" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"noAttacks" : {
-						"type" : "ADDITIONAL_ATTACK",
-						"val" : -5,
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"noShooting" : {
-						"type" : "FORGETFULL",
-						"val" : 3,
-						"duration" : [
-							"N_TURNS"
-						]
-					},
-					"charmed" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"noRetaliation" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"noAttacks" : {
+								"type" : "ADDITIONAL_ATTACK",
+								"val" : -5,
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"noShooting" : {
+								"type" : "FORGETFULL",
+								"val" : 100,
+								"duration" : [
+									"N_TURNS"
+								]
+							},
+							"charmed" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
 
-							"N_TURNS"
-						],
+									"N_TURNS"
+								],
 
-						"turns" : 1,
+								"turns" : 1,
 
-						"type" : "HYPNOTIZED"
+								"type" : "HYPNOTIZED"
+							}
+						}
 					}
 				}
 			},

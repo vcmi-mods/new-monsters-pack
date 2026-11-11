@@ -16,9 +16,10 @@
 			"description" : "{Basic Warding}\n\nCreatures are enchanted with Magic Mirror (25%).",
 			"effects" : {
 				"enchanted" : {
-					"type" : "ENCHANTED",
-					"subtype" : "magicMirror",
-					"val" : 25
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"val" : 22,
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "magicMirror", "massive" : true }
 				}
 			}
 		},
@@ -32,9 +33,10 @@
 			"description" : "{Advanced Warding}\n\nCreatures are enchanted with Magic Mirror (50%).",
 			"effects" : {
 				"enchanted" : {
-					"type" : "ENCHANTED",
-					"subtype" : "magicMirror",
-					"val" : 50
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"val" : 47,
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "magicMirror", "massive" : true }
 				}
 			}
 		},
@@ -48,9 +50,10 @@
 			"description" : "{Expert Warding}\n\nCreatures are enchanted with Magic Mirror (75%).",
 			"effects" : {
 				"enchanted" : {
-					"type" : "ENCHANTED",
-					"subtype" : "magicMirror",
-					"val" : 75
+					"type" : "COMBAT_EVENT_TRIGGER",
+					"val" : 72,
+					"subtype" : "enchanted",
+					"addInfo" : { "spell" : "magicMirror", "massive" : true }
 				}
 			}
 		}

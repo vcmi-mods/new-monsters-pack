@@ -22,7 +22,6 @@
 
 		"flags" : {
 			"damage" : true,
-			"offensive" : true,
 			"negative" : true,
 			"special" : true
 		},
@@ -69,12 +68,20 @@
 				"cost" : 8,
 				"power" : 10,
 
-				"effects" : {
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "STACK_GETS_TURN",
-						"val" : -25
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "STACK_GETS_TURN",
+								"val" : -25
+							}
+						}
 					}
 				}
 			},
@@ -84,12 +91,20 @@
 				"cost" : 6,
 				"power" : 15,
 
-				"effects" : {
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "STACK_GETS_TURN",
-						"val" : -25
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "STACK_GETS_TURN",
+								"val" : -25
+							}
+						}
 					}
 				}
 			},
@@ -99,12 +114,20 @@
 				"cost" : 6,
 				"power" : 15,
 
-				"effects" : {
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "STACK_GETS_TURN",
-						"val" : -50
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "STACK_GETS_TURN",
+								"val" : -50
+							}
+						}
 					}
 				}
 			},
@@ -114,12 +137,20 @@
 				"cost" : 6,
 				"power" : 15,
 
-				"effects" : {
-					"speed" : {
-						"type" : "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"duration" : "STACK_GETS_TURN",
-						"val" : -75
+				"battleEffects" : {
+					"directDamage" : {
+						"type" : "core:damage"
+					},
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"speed" : {
+								"type" : "STACKS_SPEED",
+								"valueType" : "PERCENT_TO_ALL",
+								"duration" : "STACK_GETS_TURN",
+								"val" : -75
+							}
+						}
 					}
 				}
 			}

@@ -55,17 +55,22 @@
 
 				"description" : "{Advanced Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by the selected unit.\n\nEffect is twice that of Basic Bloodlust.\n",
 
-				"effects" : {
-					"primarySkill" : {
-						"duration" : "N_TURNS",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"duration" : "N_TURNS",
 
-						"effectRange" : "ONLY_MELEE_FIGHT",
+								"effectRange" : "ONLY_MELEE_FIGHT",
 
-						"subtype" : "attack",
+								"subtype" : "attack",
 
-						"type" : "PRIMARY_SKILL",
+								"type" : "PRIMARY_SKILL",
 
-						"val" : 6
+								"val" : 6
+							}
+						}
 					}
 				},
 
@@ -79,17 +84,22 @@
 			},
 
 			"base" : {
-				"effects" : {
-					"primarySkill" : {
-						"duration" : "N_TURNS",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"duration" : "N_TURNS",
 
-						"effectRange" : "ONLY_MELEE_FIGHT",
+								"effectRange" : "ONLY_MELEE_FIGHT",
 
-						"subtype" : "attack",
+								"subtype" : "attack",
 
-						"type" : "PRIMARY_SKILL",
+								"type" : "PRIMARY_SKILL",
 
-						"val" : 3
+								"val" : 3
+							}
+						}
 					}
 				},
 
@@ -107,17 +117,22 @@
 
 				"description" : "{Basic Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by the selected unit.\n",
 
-				"effects" : {
-					"primarySkill" : {
-						"duration" : "N_TURNS",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"duration" : "N_TURNS",
 
-						"effectRange" : "ONLY_MELEE_FIGHT",
+								"effectRange" : "ONLY_MELEE_FIGHT",
 
-						"subtype" : "attack",
+								"subtype" : "attack",
 
-						"type" : "PRIMARY_SKILL",
+								"type" : "PRIMARY_SKILL",
 
-						"val" : 3
+								"val" : 3
+							}
+						}
 					}
 				},
 
@@ -137,17 +152,22 @@
 
 				"description" : "{Expert Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by all friendly units.\n\nEffect is twice that of Basic Bloodlust.\n",
 
-				"effects" : {
-					"primarySkill" : {
-						"duration" : "N_TURNS",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"duration" : "N_TURNS",
 
-						"effectRange" : "ONLY_MELEE_FIGHT",
+								"effectRange" : "ONLY_MELEE_FIGHT",
 
-						"subtype" : "attack",
+								"subtype" : "attack",
 
-						"type" : "PRIMARY_SKILL",
+								"type" : "PRIMARY_SKILL",
 
-						"val" : 6
+								"val" : 6
+							}
+						}
 					}
 				},
 
@@ -167,17 +187,22 @@
 
 				"description" : "{Bloodlust}\n\nIncreases the hand-to-hand damage inflicted by the selected unit.\n",
 
-				"effects" : {
-					"primarySkill" : {
-						"duration" : "N_TURNS",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"primarySkill" : {
+								"duration" : "N_TURNS",
 
-						"effectRange" : "ONLY_MELEE_FIGHT",
+								"effectRange" : "ONLY_MELEE_FIGHT",
 
-						"subtype" : "attack",
+								"subtype" : "attack",
 
-						"type" : "PRIMARY_SKILL",
+								"type" : "PRIMARY_SKILL",
 
-						"val" : 3
+								"val" : 3
+							}
+						}
 					}
 				},
 

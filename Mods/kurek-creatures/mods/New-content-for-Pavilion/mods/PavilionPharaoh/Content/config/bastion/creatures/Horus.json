@@ -61,8 +61,9 @@
 				"val" : 100
 			},
 			"deathStare" : {
-				"subtype" : "deathStareGorgon",
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 20
 			}
 		},

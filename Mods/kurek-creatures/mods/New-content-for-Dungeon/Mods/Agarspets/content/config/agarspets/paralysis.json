@@ -45,23 +45,28 @@
 				"description" : "{Paralysis}\n\nThe target's attack power is reduced by 50% and it remains inactive until attacked.",
 				"cost" : 18,
 				"power" : 15,
-				"effects" : {
-					"generalAttackReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_ATTACK_REDUCTION",
-						"val" : 50
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "paralysis",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalAttackReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_ATTACK_REDUCTION",
+								"val" : 50
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "paralysis",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				}
 			},
@@ -69,23 +74,28 @@
 				"description" : "{Basic Paralysis}\n\nThe target's attack power is reduced by 60% and it remains inactive until attacked.",
 				"cost" : 16,
 				"power" : 18,
-				"effects" : {
-					"generalAttackReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_ATTACK_REDUCTION",
-						"val" : 60
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "paralysis",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalAttackReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_ATTACK_REDUCTION",
+								"val" : 60
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "paralysis",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				}
 			},
@@ -93,23 +103,28 @@
 				"description" : "{Advanced Paralysis}\n\nThe target's attack power is reduced by 75% and it remains inactive until attacked.",
 				"cost" : 14,
 				"power" : 22,
-				"effects" : {
-					"generalAttackReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_ATTACK_REDUCTION",
-						"val" : 75
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "paralysis",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalAttackReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_ATTACK_REDUCTION",
+								"val" : 75
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "paralysis",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				}
 			},
@@ -117,21 +132,26 @@
 				"description" : "{Expert Paralysis}\n\nThe target's attack power is reduced by 75% and it remains inactive indefinitely, regardless of being attacked.",
 				"cost" : 12,
 				"power" : 25,
-				"effects" : {
-					"generalAttackReduction" : {
-						"duration" : [
-							"N_TURNS"
-						],
-						"type" : "GENERAL_ATTACK_REDUCTION",
-						"val" : 75
-					},
-					"notActive" : {
-						"duration" : [
-							"N_TURNS"
-						],
-						"subtype" : "paralysis",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalAttackReduction" : {
+								"duration" : [
+									"N_TURNS"
+								],
+								"type" : "GENERAL_ATTACK_REDUCTION",
+								"val" : 75
+							},
+							"notActive" : {
+								"duration" : [
+									"N_TURNS"
+								],
+								"subtype" : "paralysis",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				}
 			}

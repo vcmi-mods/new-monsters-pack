@@ -38,23 +38,28 @@
 				//			"aiValue" : 50,
 				"cost" : 8,
 				"description" : "{Advanced Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
-				"effects" : {
-					"generalDamageReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 50
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "stoneGaze",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : 50
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "stoneGaze",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				},
 				"power" : 80,
@@ -67,23 +72,28 @@
 				//			"aiValue" : 50,
 				"cost" : 10,
 				"description" : "{Basic Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
-				"effects" : {
-					"generalDamageReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 50
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "stoneGaze",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : 50
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "stoneGaze",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				},
 				"power" : 70,
@@ -96,23 +106,28 @@
 				//			"aiValue" : 50,
 				"cost" : 6,
 				"description" : "{Expert Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
-				"effects" : {
-					"generalDamageReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 50
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "stoneGaze",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : 50
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "stoneGaze",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				},
 				"power" : 100,
@@ -125,23 +140,28 @@
 				//			"aiValue" : 50,
 				"cost" : 12,
 				"description" : "{Turn to Stone}\n\nPetrifies a creature so that it cannot move and causes it to take half damage. Petrification persists until the unit is attacked or dispelled.",
-				"effects" : {
-					"generalDamageReduction" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"type" : "GENERAL_DAMAGE_REDUCTION",
-						"val" : 50
-					},
-					"notActive" : {
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						],
-						"subtype" : "stoneGaze",
-						"type" : "NOT_ACTIVE",
-						"val" : 0
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"generalDamageReduction" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"type" : "GENERAL_DAMAGE_REDUCTION",
+								"val" : 50
+							},
+							"notActive" : {
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								],
+								"subtype" : "stoneGaze",
+								"type" : "NOT_ACTIVE",
+								"val" : 0
+							}
+						}
 					}
 				},
 				"power" : 50,

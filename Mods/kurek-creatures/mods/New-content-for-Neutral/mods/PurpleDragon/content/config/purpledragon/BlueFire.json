@@ -58,8 +58,9 @@
 						"cumulative" : false,
 						"bonus" : {
 							"harm" : {
-								"type" : "ENCHANTED",
-								"subtype" : "bluefiredamageeffect",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "bluefiredamageeffect" },
 								"val" : 0,
 								"duration" : "N_TURNS",
 								"turns" : 2
@@ -80,8 +81,9 @@
 						"cumulative" : false,
 						"bonus" : {
 							"harm" : {
-								"type" : "ENCHANTED",
-								"subtype" : "bluefiredamageeffect",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "bluefiredamageeffect" },
 								"val" : 0,
 								"duration" : "N_TURNS",
 								"turns" : 2
@@ -102,8 +104,9 @@
 						"cumulative" : false,
 						"bonus" : {
 							"harm" : {
-								"type" : "ENCHANTED",
-								"subtype" : "bluefiredamageeffect",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "bluefiredamageeffect" },
 								"val" : 0,
 								"duration" : "N_TURNS",
 								"turns" : 2
@@ -124,8 +127,9 @@
 						"cumulative" : false,
 						"bonus" : {
 							"harm" : {
-								"type" : "ENCHANTED",
-								"subtype" : "bluefiredamageeffect",
+								"type" : "COMBAT_EVENT_TRIGGER",
+								"subtype" : "enchanted",
+								"addInfo" : { "spell" : "bluefiredamageeffect" },
 								"val" : 0,
 								"duration" : "N_TURNS",
 								"turns" : 2

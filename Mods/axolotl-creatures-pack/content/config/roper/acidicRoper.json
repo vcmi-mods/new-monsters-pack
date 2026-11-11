@@ -11,9 +11,15 @@
 				"val" : 50
 			},
 			"acidBreath" : {
-				"type" : "ACID_BREATH",
-				"val" : 2,
-				"addInfo" : 50
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "acidBreathDamage",
+				"val" : 50
+			},
+			// damage of the cast above, multiplied by the number of creatures in the stack
+			"acidBreathDamage" : {
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "acidBreathDamage",
+				"val" : 2
 			}
 		},
 		"stackExperience" : [

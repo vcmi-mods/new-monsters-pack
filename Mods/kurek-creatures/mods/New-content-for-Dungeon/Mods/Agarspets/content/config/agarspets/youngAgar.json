@@ -55,7 +55,7 @@
 			},
 			"bonuses" : {
 				"evilEye2terribleeye" : {
-					"subtype" : "evilEye"
+					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "evilEye" } ]
 				}
 			}
 		}

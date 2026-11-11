@@ -56,9 +56,9 @@
 				"type" : "UNDEAD"
 			},
 			"transmutation" : {
-				"type" : "TRANSMUTATION",
-				"addInfo" : "creature.madMummy",
-				"subtype" : "transmutationPerUnit",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "transmutation",
+				"addInfo" : { "transmuteBy" : "count", "creature" : "creature.madMummy" },
 				"val" : 10,
 				"icon" : "bonuses/e_sgtype_madmummy.png"
 			}

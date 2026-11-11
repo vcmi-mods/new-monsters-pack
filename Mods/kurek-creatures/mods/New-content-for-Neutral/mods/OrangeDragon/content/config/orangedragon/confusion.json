@@ -60,13 +60,18 @@
 
 				"cost" : 13,
 
-				"effects" : {
-					"confusion" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"confusion" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -75,13 +80,18 @@
 
 				"cost" : 10,
 
-				"effects" : {
-					"confusion" : {
-						"type" : "NO_RETALIATION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"confusion" : {
+								"type" : "NO_RETALIATION",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},
@@ -91,10 +101,15 @@
 				"cost" : 10,
 				//				"range" : "1",
 
-				"effects" : {
-					"confusion" : {
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"confusion" : {
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			},
@@ -104,10 +119,15 @@
 				"cost" : 10,
 				"range" : "X",
 
-				"effects" : {
-					"confusion" : {
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS"
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"confusion" : {
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS"
+							}
+						}
 					}
 				}
 			}

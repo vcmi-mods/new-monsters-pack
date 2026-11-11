@@ -36,13 +36,20 @@
 		},
 		"doubleWide" : false,
 		"abilities" : {
-			"mix" : {
-				"type" : "NONEVIL_ALIGNMENT_MIX",
+			"alignmentMixGood" : {
+				"type" : "ALIGNMENT_MIX",
+				"subtype" : "alignmentGood",
+				"icon" : "bonuses/shaman_nonevil.png"
+			},
+			"alignmentMixNeutral" : {
+				"type" : "ALIGNMENT_MIX",
+				"subtype" : "alignmentNeutral",
 				"icon" : "bonuses/shaman_nonevil.png"
 			},
 			"airShield" : {
-				"type" : "ENCHANTED",
-				"subtype" : "antiMagic",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "antiMagic" },
 				"val" : 2,
 				"icon" : "bonuses/enchantedantimagic.png"
 			}

@@ -5,7 +5,13 @@
 				"type" : "FLYING"
 			},
 			"mixer" : {
-				"type" : "NONEVIL_ALIGNMENT_MIX",
+				"type" : "ALIGNMENT_MIX",
+				"subtype" : "alignmentGood",
+				"propagator" : "HERO"
+			},
+			"alignmentMixNeutral" : {
+				"type" : "ALIGNMENT_MIX",
+				"subtype" : "alignmentNeutral",
 				"propagator" : "HERO"
 			},
 

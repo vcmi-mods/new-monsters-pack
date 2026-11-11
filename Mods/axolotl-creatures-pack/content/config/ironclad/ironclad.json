@@ -6,8 +6,9 @@
 				"subtype" : "fire"
 			},
 			"castsAirShield" : {
-				"type" : "ENCHANTED",
-				"subtype" : "airShield",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "airShield" },
 				"val" : 2
 			},
 			"fearless" : {

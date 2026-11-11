@@ -54,11 +54,16 @@
 
 				"description" : "{Advanced Jump}\n\nThe selected unit will be able to jump over obstacles.\n",
 
-				"effects" : {
-					"movementFlying" : {
-						"duration" : "N_TURNS",
-						"type" : "FLYING",
-						"val" : 1
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"movementFlying" : {
+								"duration" : "N_TURNS",
+								"type" : "FLYING",
+								"val" : 1
+							}
+						}
 					}
 				},
 
@@ -72,11 +77,16 @@
 			},
 
 			"base" : {
-				"effects" : {
-					"movementFlying" : {
-						"duration" : "N_TURNS",
-						"type" : "FLYING",
-						"val" : 1
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"movementFlying" : {
+								"duration" : "N_TURNS",
+								"type" : "FLYING",
+								"val" : 1
+							}
+						}
 					}
 				},
 
@@ -94,11 +104,16 @@
 
 				"description" : "{Basic Jump}\n\nThe selected unit will be able to jump over obstacles.\n",
 
-				"effects" : {
-					"movementFlying" : {
-						"duration" : "N_TURNS",
-						"type" : "FLYING",
-						"val" : 1
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"movementFlying" : {
+								"duration" : "N_TURNS",
+								"type" : "FLYING",
+								"val" : 1
+							}
+						}
 					}
 				},
 
@@ -118,11 +133,16 @@
 
 				"description" : "{Expert Jump}\n\nAll friendly units will be able to jump over obstacles.\n",
 
-				"effects" : {
-					"movementFlying" : {
-						"duration" : "N_TURNS",
-						"type" : "FLYING",
-						"val" : 1
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"movementFlying" : {
+								"duration" : "N_TURNS",
+								"type" : "FLYING",
+								"val" : 1
+							}
+						}
 					}
 				},
 
@@ -142,11 +162,16 @@
 
 				"description" : "{Jump}\n\nThe selected unit will be able to jump over obstacles.\n",
 
-				"effects" : {
-					"movementFlying" : {
-						"duration" : "N_TURNS",
-						"type" : "FLYING",
-						"val" : 1
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"movementFlying" : {
+								"duration" : "N_TURNS",
+								"type" : "FLYING",
+								"val" : 1
+							}
+						}
 					}
 				},
 
