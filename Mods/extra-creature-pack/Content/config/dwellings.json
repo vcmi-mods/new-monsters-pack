@@ -3,6 +3,7 @@
 		"types" : {
 			"exptombOfFallen" : {
 				"name" : "Tomb of Fallen",
+				"bannedForRandomDwelling" : true,
 				"creatures" : [
 					[
 						"expSword1"
@@ -114,6 +115,7 @@
 			},
 			"expengineRoom" : {
 				"name" : "Engine Room",
+				"bannedForRandomDwelling" : true,
 				"creatures" : [
 					[
 						"expTank"

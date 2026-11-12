@@ -38,7 +38,8 @@
 		"specialty" : {
 			"bonuses" : {
 				"noFleeing" : {
-					"type" : "BATTLE_NO_FLEEING",
+					"type" : "BATTLE_CAN_FLEE",
+					"val" : -100,
 					//          "duration" : "PERMANENT",
 					"propagator" : "BATTLE_WIDE",
 					"propagationUpdater" : "BONUS_OWNER_UPDATER",

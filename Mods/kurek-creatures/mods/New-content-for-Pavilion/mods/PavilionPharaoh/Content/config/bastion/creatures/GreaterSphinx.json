@@ -74,8 +74,9 @@
 				"description" : "{Casts Turn to Stone}\nCasts a spell: target is immobile and takes half damage. Ends when attacked or dispelled."
 			},
 			"deathStare" : {
-				"subtype" : "deathStareGorgon",
-				"type" : "DEATH_STARE",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "deathStare",
+				"addInfo" : { "situation" : "melee" },
 				"val" : 40
 			}
 		},

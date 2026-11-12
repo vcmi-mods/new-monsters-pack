@@ -3,6 +3,9 @@
 		"abilities" : {
 			"mixer" : {
 				"icon" : "bonuses/owlkin_nonevil.png"
+			},
+			"alignmentMixNeutral" : {
+				"icon" : "bonuses/owlkin_nonevil.png"
 			}
 		}
 	}

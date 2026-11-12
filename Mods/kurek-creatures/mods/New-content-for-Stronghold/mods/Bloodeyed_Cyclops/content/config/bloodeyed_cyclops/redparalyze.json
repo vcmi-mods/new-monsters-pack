@@ -37,23 +37,28 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						"subtype" : "paralyze",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
-					},
-					"generalAttackReduction" : {
-						"val" : 75,
-						"type" : "GENERAL_ATTACK_REDUCTION",
-						"duration" : [
-							"UNTIL_BEING_ATTACKED",
-							"N_TURNS"
-						]
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
+								"subtype" : "paralyze",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							},
+							"generalAttackReduction" : {
+								"val" : 75,
+								"type" : "GENERAL_ATTACK_REDUCTION",
+								"duration" : [
+									"UNTIL_BEING_ATTACKED",
+									"N_TURNS"
+								]
+							}
+						}
 					}
 				}
 			},

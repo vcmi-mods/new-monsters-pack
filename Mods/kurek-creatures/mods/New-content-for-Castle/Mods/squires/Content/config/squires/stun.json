@@ -64,76 +64,96 @@
 			"none" : {
 				"description" : "{Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn.",
 				"cost" : 16,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
 
-						"duration" : "N_TURNS",
-						"turns" : 1
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 1
+								"duration" : "N_TURNS",
+								"turns" : 1
+							},
+							"noRetaliation" : {
+								"val" : 0,
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS",
+								"turns" : 1
+							}
+						}
 					}
 				}
 			},
 			"basic" : {
 				"description" : "{Basic Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 1 turn",
 				"cost" : 12,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
 
-						"duration" : "N_TURNS",
-						"turns" : 1
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 1
+								"duration" : "N_TURNS",
+								"turns" : 1
+							},
+							"noRetaliation" : {
+								"val" : 0,
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS",
+								"turns" : 1
+							}
+						}
 					}
 				}
 			},
 			"advanced" : {
 				"description" : "{Advanced Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 2 turns.",
 				"cost" : 12,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
 
-						"duration" : "N_TURNS",
-						"turns" : 2
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 2
+								"duration" : "N_TURNS",
+								"turns" : 2
+							},
+							"noRetaliation" : {
+								"val" : 0,
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS",
+								"turns" : 2
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 3 turns.",
 				"cost" : 12,
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
 
-						"duration" : "N_TURNS",
-						"turns" : 3
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 3
+								"duration" : "N_TURNS",
+								"turns" : 3
+							},
+							"noRetaliation" : {
+								"val" : 0,
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS",
+								"turns" : 3
+							}
+						}
 					}
 				}
 			}

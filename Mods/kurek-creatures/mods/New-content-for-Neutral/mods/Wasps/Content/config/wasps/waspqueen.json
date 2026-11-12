@@ -85,8 +85,9 @@
 				"subtype" : "acidBreathDamage"
 			},
 			"summonguardianswaspdrones" : {
-				"type" : "SUMMON_GUARDIANS",
-				"subtype" : "waspdrone",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "summonGuardians",
+				"addInfo" : { "creature" : "waspdrone" },
 				"val" : 15000,
 				"icon" : "wasps/bonusqueensymbiosis.png",
 				"description" : "{Symbiosis with Drones}\nDrones copulate with the queen at the start of turn, healing her."

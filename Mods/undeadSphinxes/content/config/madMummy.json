@@ -62,8 +62,9 @@
 				"icon" : "bonuses/curseattack.png"
 			},
 			"berserkEnchanted" : {
-				"type" : "ENCHANTED",
-				"subtype" : "berserk",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "enchanted",
+				"addInfo" : { "spell" : "berserk" },
 				"val" : 3,
 				"icon" : "bonuses/enchantedberserk.png"
 			}

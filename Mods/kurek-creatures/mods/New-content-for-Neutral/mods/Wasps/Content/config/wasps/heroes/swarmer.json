@@ -1,8 +1,6 @@
 {
 	"swarmer" : {
-		"spellbook" : [
-			"waspswarmability"
-		],
+		"spellbook" : [],
 		"class" : "hiveruler",
 		"female" : false,
 		"onlyOnMapWithoutWater" : false,

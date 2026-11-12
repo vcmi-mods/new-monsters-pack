@@ -47,9 +47,10 @@
 		},
 		"abilities" : {
 			"guardians" : {
-				"type" : "SUMMON_GUARDIANS",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "summonGuardians",
+				"addInfo" : { "creature" : "kraven" },
 				"val" : 80,
-				"subtype" : "kraven",
 				"icon" : "summonravens.png"
 			},
 			"casts" : {

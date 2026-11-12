@@ -80,7 +80,8 @@
 				"icon" : "iconsBig/e_fly6.png"
 			},
 			"drainsLife" : {
-				"type" : "LIFE_DRAIN",
+				"type" : "COMBAT_EVENT_TRIGGER",
+				"subtype" : "lifeDrain",
 				"val" : 100,
 				"icon" : "iconsBig/drainlife_grounddalek.png"
 			}

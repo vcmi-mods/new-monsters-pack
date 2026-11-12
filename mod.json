@@ -1,13 +1,16 @@
 {
 	"name" : "New Monsters Pack",
 	"author" : "Various",
-	"version" : "1.4.9",
+	"version" : "1.4.10",
 	"contact" : "https://vcmi.eu/",
 	"modType" : "Creatures",
 	"compatibility" : {
 		"min" : "1.7.0"
 	},
 	"changelog" : {
+		"1.4.10" : [
+			"Updated to VCMI 1.8 format"
+		],
 		"1.4.9" : [
 			"Fixes for console warnings (may break saves and maps)."
 		],

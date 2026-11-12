@@ -4,6 +4,9 @@
 			"mixer" : {
 				"icon" : "bonuses/owlkin_nonevil.png"
 			},
+			"alignmentMixNeutral" : {
+				"icon" : "bonuses/owlkin_nonevil.png"
+			},
 			"addRetaliation" : {
 				"icon" : "bonuses/e_retail1_owlkinsage.png"
 			}

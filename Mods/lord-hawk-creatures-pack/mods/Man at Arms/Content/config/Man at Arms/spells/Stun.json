@@ -55,19 +55,24 @@
 				"targetModifier" : {
 					"smart" : true
 				},
-				"effects" : {
-					"notActive" : {
-						"val" : 0,
-						"type" : "NOT_ACTIVE",
-						// "subtype" : "blind",
-						"duration" : "N_TURNS",
-						"turns" : 1
-					},
-					"noRetaliation" : {
-						"val" : 0,
-						"type" : "NO_RETALIATION",
-						"duration" : "N_TURNS",
-						"turns" : 1
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"val" : 0,
+								"type" : "NOT_ACTIVE",
+								// "subtype" : "blind",
+								"duration" : "N_TURNS",
+								"turns" : 1
+							},
+							"noRetaliation" : {
+								"val" : 0,
+								"type" : "NO_RETALIATION",
+								"duration" : "N_TURNS",
+								"turns" : 1
+							}
+						}
 					}
 				}
 			},
@@ -82,24 +87,34 @@
 			"advanced" : {
 				"description" : "{Advanced Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 2 turns.",
 				"cost" : 12,
-				"effects" : {
-					"notActive" : {
-						"turns" : 2
-					},
-					"noRetaliation" : {
-						"turns" : 2
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"turns" : 2
+							},
+							"noRetaliation" : {
+								"turns" : 2
+							}
+						}
 					}
 				}
 			},
 			"expert" : {
 				"description" : "{Expert Stun}\r\n\r\nThe target enemy unit cannot attack or counterattack for 3 turns.",
 				"cost" : 12,
-				"effects" : {
-					"notActive" : {
-						"turns" : 3
-					},
-					"noRetaliation" : {
-						"turns" : 3
+				"battleEffects" : {
+					"timed" : {
+						"type" : "core:timed",
+						"bonus" : {
+							"notActive" : {
+								"turns" : 3
+							},
+							"noRetaliation" : {
+								"turns" : 3
+							}
+						}
 					}
 				}
 			}
