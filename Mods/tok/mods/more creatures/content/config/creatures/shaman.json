@@ -49,7 +49,9 @@
 			"airShield" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "antiMagic" },
+				"addInfo" : {
+					"spell" : "antiMagic"
+				},
 				"val" : 2,
 				"icon" : "bonuses/enchantedantimagic.png"
 			}

@@ -56,25 +56,60 @@
 			},
 			"bonuses" : {
 				"sphinx2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "new-pavilion:sphinx" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "new-pavilion:sphinx"
+						}
+					]
 				},
 				"sphinxoracles2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "new-pavilion:elderSphinx" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "new-pavilion:elderSphinx"
+						}
+					]
 				},
 				"Lamia2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "new-monsters-pack.axolotl-creatures-pack:acpsphinx" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "new-monsters-pack.axolotl-creatures-pack:acpsphinx"
+						}
+					]
 				},
 				"ashensphinx2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.ashenSphinx" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.ashenSphinx"
+						}
+					]
 				},
 				"entombedsphinx2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.entombedSphinx" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.entombedSphinx"
+						}
+					]
 				},
 				"manticore2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.manticore" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.manticore"
+						}
+					]
 				},
 				"scorpicore2guardiansphinx" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.scorpicore" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.scorpicore"
+						}
+					]
 				}
 			}
 		}

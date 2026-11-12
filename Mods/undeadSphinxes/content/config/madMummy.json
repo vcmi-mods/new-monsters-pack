@@ -64,7 +64,9 @@
 			"berserkEnchanted" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "enchanted",
-				"addInfo" : { "spell" : "berserk" },
+				"addInfo" : {
+					"spell" : "berserk"
+				},
 				"val" : 3,
 				"icon" : "bonuses/enchantedberserk.png"
 			}

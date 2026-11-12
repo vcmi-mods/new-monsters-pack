@@ -46,7 +46,9 @@
 			"deathStare" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "deathStare",
-				"addInfo" : { "situation" : "melee" },
+				"addInfo" : {
+					"situation" : "melee"
+				},
 				"val" : 10
 			},
 			"petrify" : {
@@ -211,7 +213,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "deathStare",
-					"addInfo" : { "situation" : "melee" }
+					"addInfo" : {
+						"situation" : "melee"
+					}
 				},
 				"values" : [
 					13,

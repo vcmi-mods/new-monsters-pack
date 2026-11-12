@@ -180,7 +180,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "bless" }
+					"addInfo" : {
+						"spell" : "bless"
+					}
 				},
 				"values" : [
 					0,

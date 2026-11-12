@@ -49,7 +49,9 @@
 			"guardians" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "summonGuardians",
-				"addInfo" : { "creature" : "kraven" },
+				"addInfo" : {
+					"creature" : "kraven"
+				},
 				"val" : 80,
 				"icon" : "summonravens.png"
 			},

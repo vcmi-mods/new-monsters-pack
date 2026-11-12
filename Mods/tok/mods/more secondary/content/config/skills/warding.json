@@ -19,7 +19,10 @@
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"val" : 22,
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "magicMirror", "massive" : true }
+					"addInfo" : {
+						"spell" : "magicMirror",
+						"massive" : true
+					}
 				}
 			}
 		},
@@ -36,7 +39,10 @@
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"val" : 47,
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "magicMirror", "massive" : true }
+					"addInfo" : {
+						"spell" : "magicMirror",
+						"massive" : true
+					}
 				}
 			}
 		},
@@ -53,7 +59,10 @@
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"val" : 72,
 					"subtype" : "enchanted",
-					"addInfo" : { "spell" : "magicMirror", "massive" : true }
+					"addInfo" : {
+						"spell" : "magicMirror",
+						"massive" : true
+					}
 				}
 			}
 		}

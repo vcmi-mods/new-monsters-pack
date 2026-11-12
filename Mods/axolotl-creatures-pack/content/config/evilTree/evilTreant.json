@@ -7,7 +7,9 @@
 			"rebirthAlways" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "rebirth",
-				"addInfo" : { "guaranteed" : true },
+				"addInfo" : {
+					"guaranteed" : true
+				},
 				"val" : 50
 			},
 			"casts" : {

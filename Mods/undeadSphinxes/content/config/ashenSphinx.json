@@ -55,7 +55,10 @@
 			"transmutation" : {
 				"type" : "COMBAT_EVENT_TRIGGER",
 				"subtype" : "transmutation",
-				"addInfo" : { "transmuteBy" : "count", "creature" : "creature.madMummy" },
+				"addInfo" : {
+					"transmuteBy" : "count",
+					"creature" : "creature.madMummy"
+				},
 				"val" : 20,
 				"icon" : "bonuses/e_sgtype_madmummy.png"
 			}

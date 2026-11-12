@@ -183,7 +183,9 @@
 				"bonus" : {
 					"type" : "COMBAT_EVENT_TRIGGER",
 					"subtype" : "summonGuardians",
-					"addInfo" : { "creature" : "enchanter" }
+					"addInfo" : {
+						"creature" : "enchanter"
+					}
 				},
 				"values" : [
 					2,

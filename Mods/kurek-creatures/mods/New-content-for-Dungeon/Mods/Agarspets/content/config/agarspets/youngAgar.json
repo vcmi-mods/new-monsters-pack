@@ -55,7 +55,12 @@
 			},
 			"bonuses" : {
 				"evilEye2terribleeye" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "evilEye" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "evilEye"
+						}
+					]
 				}
 			}
 		}

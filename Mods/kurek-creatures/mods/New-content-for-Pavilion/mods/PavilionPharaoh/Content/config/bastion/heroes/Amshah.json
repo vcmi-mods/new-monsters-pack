@@ -56,7 +56,12 @@
 			},
 			"bonuses" : {
 				"overseer2desertguard" : {
-					"limiters" : [ { "type" : "CREATURE_TYPE_LIMITER", "creature" : "creature.overseer" } ]
+					"limiters" : [
+						{
+							"type" : "CREATURE_TYPE_LIMITER",
+							"creature" : "creature.overseer"
+						}
+					]
 				}
 			}
 		}
